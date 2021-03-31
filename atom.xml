@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://photosbed.lifeisgg.online</id>
+    <title>LifeAlsoIsGG&apos;s Photos</title>
+    <updated>2020-09-23T06:18:57.396Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://photosbed.lifeisgg.online"/>
+    <link rel="self" href="https://photosbed.lifeisgg.online/atom.xml"/>
+    <subtitle>欢迎欢迎，我是LifeAlsoIsGG，喜欢健身，听电音丶后摇，苦逼后端狗一只。这里是LifeAlsoIsGG的相册，我在这里通过照片或图片来分享我生活中的人生百态，有欢喜，有惆怅，有乐观，有抑郁。但不管怎么样，Life Also Is Good Game！
+
+&lt;br&gt;
+&lt;br&gt;
+图片大部分是通过一加7Pro拍摄。网站用的是Gridea静态博客搭建在Github Pages上，图片使用又拍云的云存储并开启了webp智能判断，使图片资源的大小大幅度减小。</subtitle>
+    <logo>https://photosbed.lifeisgg.online/images/avatar.png</logo>
+    <icon>https://photosbed.lifeisgg.online/favicon.ico</icon>
+    <rights>All rights reserved 2020, LifeAlsoIsGG&apos;s Photos</rights>
+    <entry>
+        <title type="html"><![CDATA[封闭下的学校北门]]></title>
+        <id>https://photosbed.lifeisgg.online/post/feng-bi-xia-de-xue-xiao-bei-men/</id>
+        <link href="https://photosbed.lifeisgg.online/post/feng-bi-xia-de-xue-xiao-bei-men/">
+        </link>
+        <updated>2020-09-23T05:51:52.000Z</updated>
+        <content type="html"><![CDATA[<p>几乎所有大学都施行封闭制度，虽然与我无关了，只是最后解封时，也体会不到朋友圈里面欢呼解封的喜悦了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[又是下雨天]]></title>
+        <id>https://photosbed.lifeisgg.online/post/you-shi-xia-yu-tian/</id>
+        <link href="https://photosbed.lifeisgg.online/post/you-shi-xia-yu-tian/">
+        </link>
+        <updated>2020-09-23T05:49:28.000Z</updated>
+        <content type="html"><![CDATA[<p>安静的下雨天是多愁善感之人胡思乱想的强效催化剂</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[万家灯火]]></title>
+        <id>https://photosbed.lifeisgg.online/post/wan-jia-deng-huo/</id>
+        <link href="https://photosbed.lifeisgg.online/post/wan-jia-deng-huo/">
+        </link>
+        <updated>2020-09-23T05:33:40.000Z</updated>
+        <content type="html"><![CDATA[<p>久违的，生活的气息</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日暮]]></title>
+        <id>https://photosbed.lifeisgg.online/post/ri-mu/</id>
+        <link href="https://photosbed.lifeisgg.online/post/ri-mu/">
+        </link>
+        <updated>2020-09-23T05:33:39.000Z</updated>
+        <content type="html"><![CDATA[<p>好久没这样坐在顶楼吹吹风等待日暮了。太快了，自从二月份旅游回来就一直在忙，没有好好打过游戏，没有真正体验过生活，想做的事想得到的东西都无法如愿。可是我终究不舍得摒弃欲望，而且我也没什么可以失去的了。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在傍晚离开城市的航班]]></title>
+        <id>https://photosbed.lifeisgg.online/post/chi-kai-cheng-shi-de-hang-ban/</id>
+        <link href="https://photosbed.lifeisgg.online/post/chi-kai-cheng-shi-de-hang-ban/">
+        </link>
+        <updated>2020-09-23T05:30:11.000Z</updated>
+        <content type="html"><![CDATA[<p>在这么美好的傍晚坐着飞机离开这座城市，将要去向哪里呢</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在广州城中村租房子时的随拍-1]]></title>
+        <id>https://photosbed.lifeisgg.online/post/zai-guang-zhou-cheng-zhong-cun-zu-fang-zi-shi-de-sui-pai-1/</id>
+        <link href="https://photosbed.lifeisgg.online/post/zai-guang-zhou-cheng-zhong-cun-zu-fang-zi-shi-de-sui-pai-1/">
+        </link>
+        <updated>2020-09-23T05:25:20.000Z</updated>
+        <content type="html"><![CDATA[<p>这里远离高楼，更接近人间烟火气，这里也是大多数人一天工作后在这座城市的家。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在广州城中村租房子时的随拍-2]]></title>
+        <id>https://photosbed.lifeisgg.online/post/zai-guang-zhou-cheng-zhong-cun-zu-fang-zi-shi-de-sui-pai-2/</id>
+        <link href="https://photosbed.lifeisgg.online/post/zai-guang-zhou-cheng-zhong-cun-zu-fang-zi-shi-de-sui-pai-2/">
+        </link>
+        <updated>2020-09-23T05:24:46.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[在广州城中村租房子时的随拍-3]]></title>
+        <id>https://photosbed.lifeisgg.online/post/zai-guang-zhou-cheng-zhong-cun-zu-fang-zi-shi-sui-pai/</id>
+        <link href="https://photosbed.lifeisgg.online/post/zai-guang-zhou-cheng-zhong-cun-zu-fang-zi-shi-sui-pai/">
+        </link>
+        <updated>2020-09-23T05:18:54.000Z</updated>
+        <content type="html"><![CDATA[<p>狭窄，光线低，巷子多，还是不太喜欢城中村租房子</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2020微信小程序应用开发赛华南赛区二等奖]]></title>
+        <id>https://photosbed.lifeisgg.online/post/2020-wei-xin-xiao-cheng-xu-ying-yong-kai-fa-sai-hua-nan-sai-qu-er-deng-jiang/</id>
+        <link href="https://photosbed.lifeisgg.online/post/2020-wei-xin-xiao-cheng-xu-ying-yong-kai-fa-sai-hua-nan-sai-qu-er-deng-jiang/">
+        </link>
+        <updated>2020-09-23T05:14:14.000Z</updated>
+        <content type="html"><![CDATA[<p>当一个不务正业的Java开发工程师去做小程序开发后</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[广州游-珠江新城]]></title>
+        <id>https://photosbed.lifeisgg.online/post/guang-zhou-you-zhu-jiang-xin-cheng/</id>
+        <link href="https://photosbed.lifeisgg.online/post/guang-zhou-you-zhu-jiang-xin-cheng/">
+        </link>
+        <updated>2020-08-11T13:35:34.000Z</updated>
+        <content type="html"><![CDATA[<p>来广州找工作，然后去了在珠江新城的面试，然后顺便就逛了逛附近。不得不说珠江新城比我想象的还要繁华。</p>
+]]></content>
+    </entry>
+</feed>
