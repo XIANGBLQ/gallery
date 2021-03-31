@@ -2,7 +2,7 @@ name: "rusty shutter"
 permalink: /gallery/:year/:month/:day/:title.html
 
 author: "wayne"
-atom-baseurl: "https://xiangblq.github.io/gallery/"
+atom-baseurl: "https://xiangblq.github.io"
 disqus: "gopherwood"
 
 navigations:
