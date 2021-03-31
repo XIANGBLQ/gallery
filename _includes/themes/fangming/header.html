@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+   ___                                                             ___           
+ /'___\                                    __                     /\_ \    __    
+/\ \__/   __      ___      __     ___ ___ /\_\    ___      __     \//\ \  /\_\   
+\ \ ,__\/'__`\  /' _ `\  /'_ `\ /' __` __`\/\ \ /' _ `\  /'_ `\     \ \ \ \/\ \  
+ \ \ \_/\ \L\.\_/\ \/\ \/\ \L\ \/\ \/\ \/\ \ \ \/\ \/\ \/\ \L\ \  __ \_\ \_\ \ \ 
+  \ \_\\ \__/.\_\ \_\ \_\ \____ \ \_\ \_\ \_\ \_\ \_\ \_\ \____ \/\_\/\____\\ \_\
+   \/_/ \/__/\/_/\/_/\/_/\/___L\ \/_/\/_/\/_/\/_/\/_/\/_/\/___L\ \/_/\/____/ \/_/
+						   /\____/                         /\____/               
+						   \_/__/                          \_/__/                
+-->
+<html lang="zh">
+	<head>
+		<meta charset="utf-8" />
+		<title>{{ page.title }}</title>
+		<meta name="author" content="{{ site.author.name }}">
+		{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,300italic,400italic,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="{{ ASSET_PATH }}/css/style.css?{{ site.version }}">
+		<link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" type="application/atom+xml" title="Feed">
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<p class="logo"><a href="{{ HOME_PATH }}">方明</a></p>
+				<ul>
+					<li><a href="/about.html">About</a></li>
+					<li><a href="https://twitter.com/{{ site.author.twitter }}">Twitter</a></li>
+					<li><a href="http://weibo.com/{{ site.author.weibo }}">Weibo</a></li>
+					<li><a href="http://dribbble.com/{{ site.author.dribbble }}">Dribbble</a></li>
+
+				</ul>
+			</div>
+			<div id="menu">
+				<ul>
+		   			<li><a href="/archive.html">Archive</a></li>
+		   			<li><a href="/tags.html">Tags</a></li>
+					<li><a href="http://feeds.feedburner.com/{{ site.author.feedburner }}">RSS</a></li>
+				</ul>
+			</div>
