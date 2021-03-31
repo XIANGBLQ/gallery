@@ -1,0 +1,14 @@
+---
+layout: nocom
+---
+
+<article>
+  {% if page.title %}
+  <section class="title">
+	  <a href="{{ page.url }}"><h2>{{ page.title }} </h2></a>
+  </section>
+  {% endif %}
+  <section class="post">
+  {{ content }}
+  </section>
+</article>
