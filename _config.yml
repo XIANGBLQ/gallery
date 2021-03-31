@@ -1,0 +1,27 @@
+markdown: kramdown
+highlighter: pygments
+permalink: /:year/:month/:day/:title.html
+name: "Maxwell"
+#markdown: kramdown
+
+author: "Maxwell"
+atom-baseurl: ""
+disqus: ""
+
+navigations:
+  - title: Archive
+    class: fa fa-list-ul
+    href: /archive.html
+  - title: Tags
+    class: fa fa-tags
+    href: /tags.html
+  - title: About
+    class: fa fa-user
+    href: /about.html
+  - title: Gallery
+    class: fa fa-film
+    href: https://xueming1987.github.io
+  - title: Subscribe
+    class: fa fa-rss
+    href: /atom.xml
+
