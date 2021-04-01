@@ -1,33 +1,18 @@
-![ci](https://github.com/bndw/len.to/workflows/ci/badge.svg)
+![gridster preview](/img/gridster_preview.jpg)
 
-# len.to
+## Multimedia
+If we had to choose one word to describe Gridster that would be it. Gridster is a theme that focusses on multimedia. It contains different post types to create video posts, audio posts, image post or gallery posts with ease. We created a ton of Variables, that make customization super easy.
 
-My personal photo blog.
+This theme is powerful and it comes with a few extras. It also comes with a lot of different layouts for you and in pretty material design.
 
-<br>
-<img src="https://user-images.githubusercontent.com/4248167/108465520-06ee9980-7237-11eb-8047-8f7fbd149cf2.png">
-<br>
+## Features
+The theme comes with a grunt file, which means that working with it is super easy. We have Tasks that compile, concatenate, minify and even deploy to your site.
 
-### Quickstart
+### Extensive Documentation
+We don't believe in delivering Code without explanation. So we wrote an extensive Documentation for Twister that goes over every single step from installing all of the dependencies to explaining how to customize, create posts and publish. We even tell you how you can host Twister with Plugins on GitHub pages.
 
-Run the latest Docker image on http://localhost:8080
+Check the [Docs](http://gridster.digitalmind.ch/documentation/) out.
 
-```
-make run
-```
-
-Build the Docker image
-
-```
-make build
-```
-
-Run the live-reload server on http://localhost:1313
-
-```
-make dev
-```
-
-### License
-
-The code for this site is licensed under [GNU AGPLv3](https://choosealicense.com/licenses/agpl-3.0/). The content for this site is licensed under [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+### Feedback, Wishes, Problems
+If you run into any trouble or have a request please do so by opening up an issue on the theme's GitHub page.
+If you just want to give us a general feedback feel free to [contact us!](http://digitalmind.ch/contact/)
