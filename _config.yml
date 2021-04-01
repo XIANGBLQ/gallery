@@ -79,7 +79,7 @@ pygmentsTheme: 'default'
 
 # gem 配置信息
 gems: [jekyll-paginate,pager,pagination]   #添加插件
-paginate: 10   #开启分页,首页展示数量
+paginate: 1   #开启分页,首页展示数量
 paginate_path: "blog/page:num"
 permalink: "/:year/:month/:title"
 escape_code: true
