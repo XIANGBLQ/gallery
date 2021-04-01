@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site settings
-title: Tickmao's Blog
-email: lyle.lypm@gmail.com
-SEOTitle: ProductTour | Created by Tickmao
+title: Xúnyì’s Gallery
+email: chare405@foxmail.com
+SEOTitle: Gallery | Created by Xunyi
 description: # this means to ignore newlines until "baseurl:"
-  关于产品与设计、体验、效率和学习成长 | Tickmao,Web & Mobile Lover,Product Designer,Software Enginee,UX Designer | 这里是 @Tickmao 的个人博客，我们所看到的世界有那么一点点不一样。
+  一些或许可以看的相片，是生活、是悲欢、是不舍、是什么呢
 # baseurl: "/dotstheme" # the subpath of your site, e.g. /blog
-url: "https://dotstheme.tickmao.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://xiangblq.github.io/gallery/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SNS settings
 twitter_username: tick_puppet
