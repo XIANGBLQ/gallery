@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<!-- Page Header -->
+{% include head.html %}
+
+<!-- Main Content -->
+<section class="post">
+    {{ content }}
+</section>
+{% if page.comments %}
+{% include comments.md %}
+{% endif %}

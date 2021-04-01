@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<!-- Post Header -->
+{% include head.html %}
+
+<!-- Post Container -->
+<section class="post">
+    <div class="page-title">{{ page.title }}</div>
+    <div class="page-time">{{ page.date | date:"%a, %d %B %Y" }}</div>
+    {{ content }}
+    <section class="meta">
+
+        <!-- Multi-Lingual -->
+        <hr style="visibility: hidden;">
+        <div>
+            <ul class="pageNav">
+                {% if page.previous.url %}
+                <li class="pagePre">
+                    <span>Previous:</span>
+                    <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                        data-placement="top" title="{{page.previous.title}}">
+                        {{page.previous.title}}
+                    </a>
+                </li>
+                {% endif %}
+                {% if page.next.url %}
+                <li class="pageNext">
+                    <span>Next:</span>
+                    <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip"
+                        data-placement="top" title="{{page.next.title}}">
+                        {{page.next.title}}
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+
+            {% if site.disqus_username %}
+            <!-- disqus 评论框 start -->
+            <div class="comment">
+                <div id="disqus_thread" class="disqus-thread"></div>
+            </div>
+            <!-- disqus 评论框 end -->
+            {% endif %}
+
+            <!-- disqus 评论框 start -->
+            {% if site.gittalk %}
+            <section class="comment">
+                <div id="gitalk-container"></div>
+            </section>
+            <!-- disqus 评论框 end -->
+            {% endif %}
+
+        </div>
+    </section>
+</section>
+
+
+{% if site.disqus_username %}
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{page.id}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function () {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
+
+{% if site.gittalk %}
+<!-- Gittalk 公共JS代码  start-->
+<script>
+    var title = location.pathname.substr(0, 50); //GitHub 对 Issue 的 label 存在限制，不能超过 50 个字符
+    var gittalk = new Gittalk({
+        id: location.pathname,
+        distractionFreeMode: false,
+        owner: '{{ site.gittalk_owner }}',
+        admin: '{{ site.gittalk_admin }}',
+        repo: '{{ site.gittalk_repo }}',
+        client_id: '{{ site.client_id }}',
+        client_secret: '{{ site.client_secret }}',
+    })
+    gitment.render('gitalk-container')
+</script>
+<!-- Gittalk 公共JS代码 -->
+{% endif %}

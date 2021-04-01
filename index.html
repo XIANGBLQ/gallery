@@ -1,0 +1,21 @@
+---
+layout: default
+description: "Created By Tickmao"
+---
+
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <!-- <a href="{{ post.url | prepend: site.baseurl }}"> -->
+    <div class="post-title">
+        {{ post.title }}
+    </div>
+    <div class="post-time">
+        {{ post.date | date:"%a, %d %B %Y" }}
+    </div>
+    <div class="post-content-preview">
+        {{ post.content}}
+    </div>
+    </a>
+</div>
+<hr>
+{% endfor %}

@@ -1,0 +1,121 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Site settings
+title: Tickmao's Blog
+email: lyle.lypm@gmail.com
+SEOTitle: ProductTour | Created by Tickmao
+description: # this means to ignore newlines until "baseurl:"
+  关于产品与设计、体验、效率和学习成长 | Tickmao,Web & Mobile Lover,Product Designer,Software Enginee,UX Designer | 这里是 @Tickmao 的个人博客，我们所看到的世界有那么一点点不一样。
+# baseurl: "/dotstheme" # the subpath of your site, e.g. /blog
+url: "https://dotstheme.tickmao.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# SNS settings
+twitter_username: tick_puppet
+github_username:  tickmao
+
+# Analytics settings true开启，false关闭
+# 百度统计 在baidu-url里填写自己相关的url代码
+baidu: false
+baidu-url: '' #ba_track_id: [your track id]
+# 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
+google: false
+google-ID: '' #Format: UA-xxxxxx-xx
+
+# 评论 最佳体验 在 Gittalk 之间二选一，true为开启，false为关闭
+# disqus 评论
+disqus: false
+disqus_username: aronlyle  # disqus_username: 你的用户名
+# Gittalk OAuth Application
+gittalk: false
+gittalk_owner: ''  # github用户名
+gittalk_admin: ''  # github用户名
+gittalk_repo: ''  # github博客存放的仓库名
+client_id: ''  # 注册 OAuth Application 后获得的 client_id
+client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
+
+
+# Build settings
+# theme: minima
+# plugins:
+#   - jekyll-feed
+#   - jekyll-paginate
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM   # use Github Flavored Markdown !important
+  # syntax_highlighter_opts:
+  #   span:
+  #     line_numbers: false
+  #   block:
+  #     line_numbers: true
+  #     start_line: 1
+
+# 代码高亮 使用rouge
+highlighter: rouge
+# 代码高亮主题使用pygments主题: autumn\ default\ emacs\ friendly\ manni\ murphy\ pastie\ perldoc\ tango 任选一个你喜欢的主题名称填在下面的单引号中
+pygmentsTheme: 'default'
+
+# gem 配置信息
+gems: [jekyll-paginate,pager,pagination]   #添加插件
+paginate: 10   #开启分页,首页展示数量
+paginate_path: "blog/page:num"
+permalink: "/:year/:month/:title"
+escape_code: true
+encoding: utf-8
+
+exclude:
+- README.md
+- Rakefile
+- Gemfile
+- Gemfile.lock
+- vendor
+
+
+gems:
+- jemoji
+- jekyll-redirect-from
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-paginate
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
