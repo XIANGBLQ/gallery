@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    {{ partial "header.html" . }}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:title" content="{{ dateFormat "01/02/2006" .Date }} | {{ delimit .Params.tags ", " }}" />
+    <meta property="og:image" content="{{ .Params.img_url }}" />
+
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="three columns">
+          <a class="title" href="/">len.to</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="three columns left-side">
+          {{ partial "nav.html"}}
+          {{ partial "tag-list.html"}}
+        </div>
+        <div class="nine columns right-side">
+          {{ partial "img.html" . }}
+          <div class="row post-tags">
+            <span id="rotate">⟳</span>
+            <a href="{{ .Permalink }}">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</a>
+          </div>
+          <div class="row post-tags">
+              {{ if .Params.Tags }}
+                {{ range $key, $tag := .Params.Tags }}
+                  {{- if ne $key 0 }}, {{ end }}<a class="tag" href='/tags/{{ $tag | urlize }}'>{{ $tag | lower }}</a>
+                {{ end }}
+              {{ end }}
+          </div>
+
+        </div>
+      </div>
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

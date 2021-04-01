@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    {{ partial "header.html" . }}
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="row">
+        <div class="three columns">
+          <a class="title" href="/">len.to</a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="ten columns left-side">
+          <ul>
+            {{ range where .Site.RegularPages "Type" "log" }}
+            <li><a href="{{ .Permalink }}">{{ dateFormat "1/2/2006" .Date }}: {{ .Title }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

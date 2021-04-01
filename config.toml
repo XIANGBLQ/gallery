@@ -1,0 +1,7 @@
+title = "len.to"
+baseURL = "https://len.to/"
+languageCode = "en-us"
+paginate = 20
+paginatePath = ""
+[permalinks]
+  img = "/img/:title/"
