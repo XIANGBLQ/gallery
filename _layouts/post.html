@@ -82,7 +82,7 @@ layout: default
     var title = location.pathname.substr(0, 50); //GitHub 对 Issue 的 label 存在限制，不能超过 50 个字符
     var gittalk = new Gittalk({
         id: location.pathname,
-        distractionFreeMode: false,
+        distractionFreeMode: true,
         owner: '{{ site.gittalk_owner }}',
         admin: '{{ site.gittalk_admin }}',
         repo: '{{ site.gittalk_repo }}',
