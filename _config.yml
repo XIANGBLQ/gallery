@@ -19,13 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 # Site settings
-title: Xúnyì’s Gallery
+title: Xúnyì’s | Picstory
 email: chare405@foxmail.com
-SEOTitle: Gallery | Created by Xunyi
+SEOTitle: Picstory | Just For You
 description: # this means to ignore newlines until "baseurl:"
   一些或许可以看的相片，是生活、是悲欢、是不舍、是什么呢
 # baseurl: "/dotstheme" # the subpath of your site, e.g. /blog
-url: "https://xiangblq.github.io/gallery/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://xiangblq.github.io/Picstory/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SNS settings
 twitter_username: tick_puppet
@@ -42,7 +42,7 @@ google-ID: '' #Format: UA-xxxxxx-xx
 # 评论 最佳体验 在 Gittalk 之间二选一，true为开启，false为关闭
 # disqus 评论
 disqus: false
-disqus_username: aronlyle  # disqus_username: 你的用户名
+disqus_username:  # disqus_username: 你的用户名
 # Gittalk OAuth Application
 gittalk: false
 gittalk_owner: ''  # github用户名
