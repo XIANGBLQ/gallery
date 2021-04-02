@@ -42,7 +42,7 @@ google-ID: '' #Format: UA-xxxxxx-xx
 # 评论 最佳体验 在 Gittalk 之间二选一，true为开启，false为关闭
 # disqus 评论
 disqus: true
-disqus_username:  yesterlife # disqus_username: 你的用户名
+disqus_username:  picstory # disqus_username: 你的用户名
 # Gittalk OAuth Application
 gittalk: false
 gittalk_owner: ''  # github用户名
