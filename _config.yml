@@ -44,12 +44,12 @@ google-ID: '' #Format: UA-xxxxxx-xx
 disqus: false
 disqus_username:  # disqus_username: 你的用户名
 # Gittalk OAuth Application
-gittalk: false
-gittalk_owner: ''  # github用户名
-gittalk_admin: ''  # github用户名
-gittalk_repo: ''  # github博客存放的仓库名
-client_id: ''  # 注册 OAuth Application 后获得的 client_id
-client_secret: ''  # 注册 OAuth Application 后获得的 client_secret
+gittalk: ture
+gittalk_owner: 'XIANGBLQ'  # github用户名
+gittalk_admin: 'XIANGBLQ'  # github用户名
+gittalk_repo: 'Picstory-comments'  # github博客存放的仓库名
+client_id: 'dbd2c9ae2c6fc50d97c4'  # 注册 OAuth Application 后获得的 client_id
+client_secret: '95e53e2d8e90c8a54a11dd4600da6e88aecd2a0a'  # 注册 OAuth Application 后获得的 client_secret
 
 
 # Build settings
