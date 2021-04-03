@@ -7,6 +7,6 @@ tags:
   - live
 ---
 
-![Pink Floyd](https://xiangblq.github.io/OurLife/media/files/2017/12/31/pink-floyd.jpg)
+![Pink Floyd](https://xiangblq.github.io/Picstory/media/files/2017/12/31/pink-floyd.jpg)
 
 2017 最开心的莫过于看到了 Guns N' Roses 和 Rogoer Waters 的 live，Led Zeppelin 这辈子怕是看不到了

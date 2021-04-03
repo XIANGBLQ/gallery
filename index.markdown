@@ -7,7 +7,7 @@ layout: default
   {% for post in site.posts limit: 1 %}
   <article class="content">
     <section class="title">
-      <h2><a href="/OurLife{{ post.url }}">{{ post.title }}</a></h2>
+      <h2><a href="/Picstory{{ post.url }}">{{ post.title }}</a></h2>
     </section>
     <section class="meta">
     <span class="time">
@@ -16,7 +16,7 @@ layout: default
     {% if post.tags %}
     <span class="tags">
       {% for tag in post.tags %}
-      <a href="/OurLife/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
+      <a href="/Picstory/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
       {% endfor %}
     </span>
     {% endif %}
@@ -53,9 +53,9 @@ layout: default
     {% endif %}
     <li class="listing-item">
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-      <a href="/OurLife{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      <a href="/Picstory{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-    <li class="listing-seperator"><a href="/OurLife/archive.html">Long long ago</a></li>
+    <li class="listing-seperator"><a href="/Picstory/archive.html">Long long ago</a></li>
   </ul>
 </div>
