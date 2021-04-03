@@ -5,7 +5,7 @@ tags:
   - 日记
 ---
 
-[![Shadow](/media/files/2015/12/31/shadow.jpg)](/2017/03/18/the-artist.html)
+[![Shadow](https://xiangblq.github.io/Picstory/media/files/2015/12/31/shadow.jpg)](/2017/03/18/the-artist.html)
 
 
 
