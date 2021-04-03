@@ -1,0 +1,24 @@
+name: "Picstory"
+permalink: /OurLife/:year/:month/:day/:title.html
+
+author: "Xunyi"
+atom-baseurl: "https://xiangblq.github.io/OurLife/"
+disqus: ""
+
+navigations:
+  - title: Archive
+    class: fa fa-list-ul
+    href: /OurLife/archive.html
+  - title: Tags
+    class: fa fa-tags
+    href: /OurLife/tags.html
+  - title: About
+    class: fa fa-user
+    href: /OurLife/about.html
+  - title: Gallery
+    class: fa fa-film
+    href: https://xiangblq.github.io/OurLife/
+  - title: Subscribe
+    class: fa fa-rss
+    href: /OurLife/atom.xml
+
